@@ -33,7 +33,7 @@
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/ONJoseph/Capstone1/issues).
 
 ## Show your support
 
