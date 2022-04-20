@@ -43,7 +43,6 @@ Give a ⭐️ if you like this project!
 
 - [Cindy Shin](https://www.behance.net/adagio07) for the original design
 - Microverse for the Readme Template
-- Hat tip to anyone whose code was used
 
 ## 📝 License
 
