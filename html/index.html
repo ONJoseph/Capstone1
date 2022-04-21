@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Joseph Ogbole | Capstone1, Front-End Developer from Nigeria" />
+  <meta name="keywords" content="Capstone,Front-End,Front-End Developer,Capstone Project, HTML, CSS, Javascript, ONJoseph" />
+  <meta name="author" content="Joseph Ogbole" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a36c13d2c3.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles/index.css" />
+  <title>CC Global Summit Conference 2015</title>
+</head>
+
+<body>
+  <nav class="top-nav">
+    <ul>
+      <li>
+        <a href="#"> <i class="fa fa-facebook"></i> </a>
+      </li>
+      <li>
+        <a href="#"> <i class="fa fa-twitter"></i> </a>
+      </li>
+      <li><a href="#"> English </a></li>
+      <li><a href="#"> My Page </a></li>
+      <li><a href="#" class="lastI"> Logout </a></li>
+    </ul>
+  </nav>
+
+  <nav class="main-nav">
+    <a href="/html/index.html" class="summit"> 
+      <img src="/images/cclogo.png" alt="summit-img" /> 
+    </a>
+
+    <ul>
+      <li><a href="/html/index.html"> Home </a></li>
+      <li><a href="/html/about.html"> About </a></li>
+      <li><a href="#program"> Program </a></li>
+      <li><a href="#"> Join </a></li>
+      <li><a href="#"> Sponsor </a></li>
+      <li><a href="#"> News </a></li>
+      <li><a href="#" class="lastCCI"> CC Campaign </a></li>
+    </ul>
+  </nav>
+
+  <nav class="mobile-nav">
+    <ul>
+      <li class="close_nav_btn">
+        <i class="fa-solid fa-xmark" onclick="hamburger()"></i>
+      </li>
+      <li><a href="/html/index.html"> Home </a></li>
+      <li><a href="/html/about.html"> About </a></li>
+      <li><a href="#"> Program </a></li>
+      <li><a href="#"> Join </a></li>
+      <li><a href="#"> Sponsor </a></li>
+      <li><a href="#"> News </a></li>
+      <li><a href="#"> CC Campaign </a></li>
+    </ul>
+  </nav>
+
+  <header class="landing_page">
+    <div id="hamburger">
+      <i class="fa-solid fa-bar" onclick="hamburger()"></i>
+    </div>
+    <p class="hello_H"> "Hello! Sharing World" </p>
+    <h1>
+      CREATIVE COMMONS <br />
+      GLOBAL SUMMIT <br />
+      2015
+    </h1>
+    <p class="summary">
+      A joyful celebration believing in the value of openness and sharing,
+        creating a positive change with people from over 80 countries is taking
+        place in October, in Korea.
+    </p>
+
+    <div class="location">
+      <div class="m_date"> 2015.10.15 (THU) ~ 16 (FRI) </div>
+      <div class="location_address">
+        @ National Museum of Korea, Art Center Nabi and more
+      </div>
+    </div>
+  </header>
+
+  <section id="m_program">
+    <div class="wrap m_program-info-wrapper">
+      <section class="wrap m_program-info-wrapper">
+        <h2 class="norm"> Main Program </h2>
+        <div class="main-bar"></div>
+        <div class="main-ul">
+          <ul>
+            <li>
+              <img src="/images/programimg/program_icon1.png" alt="summit" />
+              <h3> Lectures </h3>
+              <p>Listen to lectures from speakers from around the world</p>
+            </li>
+            <li>
+              <img src="/images/programimg/program_icon2.png" alt="Exhibition" />
+              <h3> CC Exhibition</h3>
+              <p> Let's meet the creations of artists from various fields </p>
+            </li>
+            <li>
+              <img src="/images/programimg/program_icon3.png" alt="Forum" />
+              <h3>Forum</h3>
+              <p> We have time to share our thoughts and opinions with </p>
+            </li>
+            <li>
+              <img src="/images/programimg/program_icon4.png" alt=" CC Workshop" />
+              <h3> Workshop </h3>
+              <p> You can create your own creations using open source instead </p>
+            </li>
+            <li>
+              <img src="/images/programimg/program_icon5.png" alt="CC Ignite" />
+              <h3> CC Ignite </h3>
+              <p> Create opportunities to freely network with CC </p>
+            </li>
+          </ul>
+        </div>
+        <a href="#" class="links"> view full program </a>
+        <button class="join-button" type="button"> Join CC Global Summit 2015 </button>
+      </section>
+    </div>
+  </section>
+
+  <section class="wrap speakers-wrap b-bottom">
+    <div class="m_content">
+      <h3> Featured Speakers </h3>
+      <div class="main-bar"></div>
+      <div class="list-speakers" id="list-speakers"></div> 
+      <button class="more-btn" type="button" id="more-btn"> MORE <i class="fa-solid fa-right-arrow"></i></button>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap ccpartners-section">
+      <section>
+        <h2> Partners </h2>
+        <div class="main-bar"></div>
+        <div class="partners-div">
+          <p>
+            <span class="mozilla"> mozilla </span>
+              <span class="google"> Google </span>
+              <span class="naver"> NAVER </span>
+              <span class="daumkakao"> daumkakao </span>
+          </p>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <div class="cc-footer">
+    <div class="cc-footer-img">
+      <img src="/images/ccfooter.png" alt="CC Footer" />
+    </div>
+    <div class="footer-text">
+      <p> 2015 Creative Common Korea Some Rights Reserved @ONJoseph</p>
+    </div>
+  </div>
+  <script src="/js/index.js"></script>
+</body>
+</html>
