@@ -299,11 +299,11 @@ body {
 }
 
 .cc-footer-img image {
-  height: 50px;
-  width: 13rem;
+  height: 20px;
+  width: 5rem;
 }
 
-.footer.dark_footer div.m_content image {
+.cc-footer.dark_footer div.m_content image {
   filter:
     invert(100%) sepia(100%) saturate(0%) hue-rotate(5deg)
     brightness(100%) contrast(100%);
@@ -350,6 +350,10 @@ body {
   filter:
     invert(100%) sepia(100%) saturate(0%) hue-rotate(5deg)
     brightness(100%) contrast(100%);
+}
+
+.cc-footer-img.dark_footer div.content image {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(5deg) brightness(100%) contrast(100%);
 }
 
 .summits-wrapper .m_content .past-links image:hover {
