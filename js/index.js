@@ -3,14 +3,14 @@ const bars = document.getElementById('hamburger');
 
 function hamburger() {
   const a = document.querySelector('.mobile-nav');
-  if (a.style.display === 'none') {
+  if (a.styles.display === 'none') {
     a.style.display = 'block';
-    bars.style.display = 'none';
-    body.style.overflowY = 'hidden';
+    bars.styles.display = 'none';
+    body.styles.overflowY = 'hidden';
   } else {
-    a.style.display = 'none';
-    bars.style.display = 'block';
-    body.style.overflowY = 'scroll';
+    a.styles.display = 'none';
+    bars.styles.display = 'block';
+    body.styles.overflowY = 'scroll';
   }
 }
 
