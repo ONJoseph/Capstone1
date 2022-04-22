@@ -89,7 +89,7 @@
   }
 
   .land-pg {
-    background-image: url("../images/mobile/home-background.jpg");
+    background-image: url("../images/mobileimg/home_background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 1px 10px 10px 100px;
@@ -321,7 +321,7 @@
     height: auto;
   }
 
-  .speakers-wrap div.content .list-speakers .speaker {
+  .speakers-wrap div.content .speakers-list .speaker {
     margin: 0 0 0 10px;
     border: 0;
     width: calc(50% - 10px);
@@ -340,35 +340,35 @@
     filter: hue-rotate(5deg) brightness(105%) contrast(105%);
   }
 
-  .speakers-wrap div.content .list-speakers .speaker img {
+  .speakers-wrap div.content .speakers-list .speaker img {
     float: left;
     width: 120px;
     height: 120px;
     margin-right: 30px;
   }
 
-  .speakers-wrap div.content .list-speakers .speaker .desc {
+  .speakers-wrap div.content .speakers-list .speaker .desc {
     text-align: left;
   }
 
-  .speakers-wrap div.content .list-speakers .speaker .desc .speaker-name {
+  .speakers-wrap div.content .speakers-list .speaker .desc .speaker-name {
     font-size: 22px;
     margin: 0;
   }
 
-  .speakers-wrap div.content .list-speakers .speaker .desc .speaker-tag-name {
+  .speakers-wrap div.content .speakers-list .speaker .desc .speaker-tag-name {
     font-size: 14px;
     margin-top: 5px;
   }
 
-  .speakers-wrap div.content .list-speakers .speaker .desc .speaker-job {
+  .speakers-wrap div.content .speakers-list .speaker .desc .speaker-job {
     font-size: 13px;
     color: #ff4f38;
     text-align: left;
     margin: 0;
   }
 
-  .speakers-wrap div.content .list-speakers .speaker .desc .speaker-desc {
+  .speakers-wrap div.content .speakers-list .speaker .desc .speaker-desc {
     word-break: keep-all;
     text-align: left;
     font-size: 0.875em;
@@ -548,7 +548,7 @@
   }
 
   .land-pg {
-    background-image: url("../images/mobile/home-background.jpg");
+    background-image: url("../images/mobileimg/home_background.jpg");
     background-repeat: no-repeat;
     background-size: auto;
     padding: 10px;
@@ -581,7 +581,7 @@
     margin-bottom: 100px;
   }
 
-  .cc-cc-date {
+  .cc-date {
     font-size: 1.5rem;
     font-weight: bolder;
     display: inline-block;
@@ -753,7 +753,7 @@
     height: auto;
   }
 
-  .speakers-wrap div.content .list-speakers .speaker {
+  .speakers-wrap div.content .speakers-list .speaker {
     border: 0;
     width: calc(100% - 10px);
     display: flex;
@@ -775,35 +775,35 @@
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(5deg) brightness(100%) contrast(100%);
   }
 
-  .speakers-wrap div.content .list-speakers .speaker img {
+  .speakers-wrap div.content .speakers-list .speaker img {
     width: 120px;
     margin-right: 30px;
   }
 
-  .speakers-wrap div.content .list-speakers .speaker .desc {
+  .speakers-wrap div.content .speakers-list .speaker .desc {
     text-align: left;
     display: flex;
     flex-direction: column;
   }
 
-  .speakers-wrap div.content .list-speakers .speaker .desc .speaker-name {
+  .speakers-wrap div.content .speakers-list .speaker .desc .speaker-name {
     font-size: 22px;
     margin: 0;
   }
 
-  .speakers-wrap div.content .list-speakers .speaker .desc .speaker-tag-name {
+  .speakers-wrap div.content .speakers-list .speaker .desc .speaker-tag-name {
     font-size: 14px;
     margin-top: 5px;
   }
 
-  .speakers-wrap div.content .list-speakers .speaker .desc .speaker-job {
+  .speakers-wrap div.content .speakers-list .speaker .desc .speaker-job {
     font-size: 13px;
     color: #ff4f38;
     text-align: left;
     margin: 0;
   }
 
-  .speakers-wrap div.content .list-speakers .speaker .desc .speaker-desc {
+  .speakers-wrap div.content .speakers-list .speaker .desc .speaker-desc {
     font-size: 0.875em;
     padding-right: 1em;
     margin: 0;
@@ -830,7 +830,7 @@
     background-color: #2e2e2e;
   }
 
-  footer .content {
+  .ccfooter .content {
     text-align: center;
     padding: 16px 0;
     width: 90%;
@@ -883,6 +883,11 @@
     font-weight: 700;
   }
 
+  .daumkakao {
+    color: #dfdfdf;
+    font-weight: 700;
+  }
+
   .ccfooter {
     background-color: #fff;
     padding: 10px 10px 10px 10px;
@@ -892,7 +897,7 @@
     align-items: center;
   }
 
-  .hide {
+  .hiden {
     display: none !important;
   }
 }
