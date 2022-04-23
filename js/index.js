@@ -1,5 +1,4 @@
 const body = document.querySelector('body');
-const bars = document.getElementById('hamburger');
 
 function hamburger() {
   const a = document.querySelector('.mob-nav');
@@ -14,7 +13,7 @@ function hamburger() {
   }
 }
 
-
+const bars = document.getElementById('hamburger');
 
 const data = {
   speakers: [
