@@ -5,13 +5,13 @@
 > This project is a demonstration of the HTML, CSS and JavaScript skills learned during first module weeks at micorverse.
 > Its centered around a conference page.
 
-![screenshot]()
+![screenshot](./images/conference_page.png)
 
 
 ## Project Deployment
 
-- Watch the project live [here]().
-- Watch a video about the project [here](https://www.loom.com/share/ae807f1bbc114080ad04c1237c0bbcca).
+- Watch the project live [here](https://onjoseph.github.io/Capstone1/).
+- Watch a video about the project [here](https://www.loom.com/share/3c9009956a464f70bf19d54f85012e9c).
 
 ## Built With
 
